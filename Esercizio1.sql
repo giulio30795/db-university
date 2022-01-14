@@ -43,6 +43,6 @@ FROM `departments`;
 
 -- Comando 8 - Quanti sono gli insegnanti che non hanno un numero di telefono? 
 
-SELECT *
+SELECT COUNT('id') AS 'phone_number'
 FROM `teachers`
 WHERE `phone` IS NULL
