@@ -7,4 +7,5 @@ define('DB_NAME', 'university');
 
 $conn = new mysqli (DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
-var_dump($conn);
+// var_dump($conn);
+
